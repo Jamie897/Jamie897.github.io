@@ -562,7 +562,7 @@ form,
     margin-left: -30px;
     margin-top: -30px;
     padding: 0;
-    background-color: #862121;
+    background-color: #0b5c1f;
     border-radius: 100%;
     -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
     animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -3105,7 +3105,7 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #862121;
+    border-right: 5px solid #0b5c1f;
 }
 
 .contact__main {
@@ -3310,7 +3310,7 @@ footer {
 }
 
 footer a, footer a:visited {
-    color: #862121;
+    color: #0b5c1f;
 }
 
 footer a:hover, footer a:focus {
