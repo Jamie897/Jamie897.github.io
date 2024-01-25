@@ -444,7 +444,7 @@ table {
 th, td {
     padding: 1.5rem 3rem;
     text-align: left;
-    border-bottom: 1px solid #E8E8E8;
+    border-bottom: 1px solid #575252;
 }
 
 th {
@@ -2637,7 +2637,7 @@ html.no-csstransitions .home-content__main {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #959595;
+    background: #727171;
     border: none;
     line-height: 10px;
     padding: 0;
@@ -2690,7 +2690,7 @@ html.no-csstransitions .home-content__main {
 
 .testimonials__author {
     margin-top: 0rem;
-    color: #FFFFFF;
+    color: #706d6d;
 }
 
 .testimonials__author span {
