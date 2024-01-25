@@ -268,7 +268,7 @@ blockquote cite:before {
 }
 
 blockquote cite a, blockquote cite a:visited {
-    color: #6c6c6c;
+    color: #696969;
     border: none;
 }
 
@@ -286,7 +286,7 @@ var, kbd, samp, code, pre {
 
 pre {
     padding: 2.4rem 3rem 3rem;
-    background: #F1F1F1;
+    background: #6e6e6e;
     overflow-x: auto;
 }
 
@@ -1110,7 +1110,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .skill-bars li {
     height: .6rem;
-    background: #c9c9c9;
+    background: #038645;
     width: 100%;
     margin-bottom: 6.9rem;
     padding: 0;
@@ -1330,95 +1330,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## blog-list - (_common-styles.scss)
- * ------------------------------------------------------------------- */
-
-.blog-list {
-    margin-top: 6rem;
-    margin-left: 0;
-}
-
-.blog-list article {
-    margin-bottom: 7.2rem;
-}
-
-.blog-list article:nth-child(2n+1) {
-    padding-right: 50px;
-}
-
-.blog-list article:nth-child(2n+2) {
-    padding-left: 50px;
-}
-
-.blog-list h2 {
-    font-family: "montserrat-medium", sans-serif;
-    font-size: 3rem;
-    line-height: 1.2;
-    margin-top: .3rem;
-    margin-bottom: 2.1rem;
-    padding-bottom: 2.4rem;
-    color: #0D0A0B;
-    position: relative;
-}
-
-.blog-list h2 a {
-    color: #0D0A0B;
-}
-
-.blog-list h2::after {
-    display: block;
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 1px;
-    width: 80px;
-    background-color: rgba(0, 0, 0, 0.15);
-}
-
-.blog-list .blog-date {
-    font-family: "montserrat-regular", sans-serif;
-    font-size: 1.5rem;
-    color: #0b5c1f;
-}
-
-.blog-list .blog-date a {
-    color: #0b5c1f;
-}
-
-.blog-list .blog-date a:hover, 
-.blog-list .blog-date a:focus, 
-.blog-list .blog-date a:active {
-    color: #000000;
-}
-
-.blog-list .blog-cat {
-    font-family: "montserrat-medium", sans-serif;
-    font-size: 1.3rem;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    color: #000000;
-    margin-top: -.9rem;
-}
-
-.blog-list .blog-cat a {
-    color: #000000;
-}
-
-.blog-list .blog-cat a:hover, 
-.blog-list .blog-cat a:focus, 
-.blog-list .blog-cat a:active {
-    color: #0b5c1f;
-}
-
-.blog-list .blog-cat a::after {
-    content: ", ";
-}
-
-.blog-list .blog-cat a:last-child::after {
-    display: none;
-}
 
 
 /* ------------------------------------------------------------------- 
@@ -1660,7 +1571,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-nav li.current a {
     font-family: "montserrat-extrabold", sans-serif;
-    color: #71df0a;
+    color: #366d02;
 }
 
 
@@ -1852,8 +1763,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::after {
-    border-bottom: 2px solid #e8ff7f;
-    border-right: 2px solid #0b5c1f;
+    border-bottom: 2px solid #c2f174;
+    border-right: 2px solid hsl(78, 87%, 63%);
     content: '';
     display: block;
     height: 8px;
@@ -2199,7 +2110,7 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 15rem;
     padding-bottom: 9rem;
-    background-color: #FFFFFF;
+    background-color: #a7b9a4;
     position: relative;
 }
 
@@ -2443,7 +2354,7 @@ html.no-csstransitions .home-content__main {
     left: 50%;
     top: 50%;
     text-align: center;
-    color: #FFFFFF;
+    color: #49c953;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: all 0.5s ease-in-out;
@@ -2463,7 +2374,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__title {
-    color: #FFFFFF;
+    color: #685e5e;
     font-family: "montserrat-semibold", sans-serif;
     font-size: 1.4rem;
     text-transform: uppercase;
@@ -2472,7 +2383,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__cat {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(63, 62, 62, 0.5);
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.5rem;
     margin-bottom: 0;
@@ -2484,8 +2395,8 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__project-link {
     display: block;
-    color: #FFFFFF;
-    box-shadow: 0 0 0 1px #FFFFFF;
+    color: #868585;
+    box-shadow: 0 0 0 1px #6b6767;
     border-radius: 50%;
     height: 4.2rem;
     width: 4.2rem;
@@ -2518,7 +2429,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__project-link:hover, .item-folio__project-link:focus, .item-folio__project-link:active {
-    background-color: #FFFFFF;
+    background-color: #446139;
     color: #000000;
 }
 
@@ -3041,7 +2952,7 @@ html.no-csstransitions .home-content__main {
 
 .s-contact {
     background-color: #151515;
-    background-image: url("../images/contact-bg.jpg");
+    background-image: url(/hola-master/images/wp3130554.jpg);
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 13.2rem;
@@ -3057,7 +2968,7 @@ html.no-csstransitions .home-content__main {
     width: 100%;
     height: 100%;
     opacity: .75;
-    background-color: #070606;
+    background-color: #232523;
 }
 
 .s-contact .section-intro h1 {
@@ -3149,8 +3060,8 @@ html.no-csstransitions .home-content__main {
 
 .contact__form button {
     margin-top: 4.2rem;
-    background-color: #862121;
-    border-color: #862121;
+    background-color: #066322;
+    border-color: #066322;
 }
 
 .message-warning, .message-success {
